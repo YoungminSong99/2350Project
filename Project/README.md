@@ -8,4 +8,4 @@
 - [Rachel Park] Development Coordinator.
 - [Gurjyot Singh] Test Coordinator
 - [Yongmin Song] Team Coordinator.
-- [Raghav Bassi] sth
+- [Raghav Bassi] Requirement Coordinator.
