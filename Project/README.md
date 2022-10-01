@@ -6,6 +6,6 @@
 4. Raghav Bassi
 ## Team Rules:
 - [Rachel Park] Development Coordinator.
-- [Gurjyot Singh] sth
+- [Gurjyot Singh] Test Coordinator
 - [Yongmin Song] Team Coordinator.
 - [Raghav Bassi] sth
