@@ -1,3 +1,0 @@
-Discuss: “Waterfall” vs “agile”
-
-List of pros and cons of each model in our project
