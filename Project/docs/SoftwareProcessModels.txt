@@ -5,3 +5,25 @@ The agile process methods go through the repetition of Plan->Design->Develop->Te
 The disadvantages of deciding this method would be that there would be multiple cases of repetitive work as there would be constant requirements to change. Moreover, while applying big changes from the clients, the entire model might crash. Therefore, there would be lots of demand for group meetings and discussion which would require lots of time. The speed of the process might be fast but it would be difficult to react to bad features.
 In the process of discussion to decide the process model, we also considered about the Waterfall model. The advantage of waterfall model is that the project would be more accurate and easier to understand the current situation of the project. Moreover, the process would be documented thoroughly. However, if we decide with waterfall, we can not adopt the demands for changes in the middle of the process. It is harder to extend the project if there is any features needed to be added. Moreover, there is a risk of risks at the end of the task since we cannot test it until the last moment. Thus, we decided that waterfall would be inappropriate for our project.
 Despite these disadvantages, we still decided to go with agile process methods. As mentioned before, the communication with the clients is the most essential part to our project’s success. By using agile process methods, we expect that the project would be more approachable and very appealing to the clients. Rapid feedbacks and testing would help to satisfy our clients.
+
+Agile
+Pros
+-	Minimize the time
+-	Apply feedbacks better
+-	Can come up with prototypes
+-	Flexible to changes
+-	Communication with clients
+Cons
+-	Lots of maintaining time
+-	Excessive meetings
+-	Possible risk of crash due to big changes
+Waterfall
+Pros
+-	Easier to understand the whole process
+-	Easier to understand current situation and goal
+-	Proper documentation
+Cons
+-	Hard to get feedback
+-	Hard to flexible changes and modifications
+-	Less communication with the clients
+-	Impossible to do parallel works.
