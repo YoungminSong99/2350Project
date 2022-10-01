@@ -5,7 +5,7 @@
 3. Yongmin Song
 4. Raghav Bassi
 ## Team Rules:
-- [Rachel Park] sth
+- [Rachel Park] Development Coordinator.
 - [Gurjyot Singh] sth
-- [Yongmin Song] sth
+- [Yongmin Song] Team Coordinator.
 - [Raghav Bassi] sth
