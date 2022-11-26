@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/style.css" />
+<script>
+
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+    <header>
+        <a href="mainIndex.html"><h1>Hand In Hands Posting and Exploring</h1></a>
+      </header>
+
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Title: <input type="text" name="fname">
+  Content: <input type="text" name="username">
+
+</form>
+<footer>
+    Add image                     
+    <input type="submit" value="addImage">
+  </footer>
+  <input type="submit" value="Upload">
+</body>
+</html>
