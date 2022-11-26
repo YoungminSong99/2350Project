@@ -1,0 +1,62 @@
+html {
+    color: cornflowerblue;
+}
+
+h1 {
+    font-family: 'Sacramento';
+    font-size: 3rem;
+    font-weight: normal;
+
+    color: cornflowerblue;
+
+    text-align: center;
+}
+h2{
+    font-family: 'Sacramento';
+    font-weight: normal;
+
+    color: cornflowerblue;
+
+    text-align: center;
+
+}
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    10%  { left:200px; top:0px;}
+    50%  { left:0px; top:0px;}
+    75%  { left:-200px; top:0px;}
+    100% { left:0px; top:0px;}
+}
+header {
+    background-color: lightblue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+  }
+nav ul li {
+    color: lavenderblush;
+    background-color: lavenderblush;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border:5px solid;
+    transition: border-top,border-right,border-bottom,border-left;
+    transition-delay: 0.5s,1s,1.5s,2s;
+    text-align: center;
+}
+
+nav ul li:hover {
+    border-color: hotpink;
+  }
+a{
+    color: hotpink;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+p{
+    color: black;
+}
