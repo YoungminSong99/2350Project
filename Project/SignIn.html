@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="CSS/style.css" />
+<script>
+function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+</script>
+</head>
+<body>
+
+<h2>JavaScript Validation</h2>
+
+<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  Name: <input type="text" name="fname">
+  UserName: <input type="text" name="username">
+  Password: <input type="Password" name="password">
+  <input type="submit" value="Sign In">
+</form>
+<footer>
+    Don't have an account Click here to sign up
+    <input type="submit" value="Sign Up">
+  </footer>
+
+</body>
+</html>
