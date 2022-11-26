@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@400;700&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@400;700&family=Merriweather:ital,wght@1,300&family=Yellowtail&display=swap');
+#topppp{
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+body{
+    background-color: lightseagreen;
+}
+.top{
+    font-family: 'Yellowtail', cursive;
+    background-color: lightseagreen;;
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin:1rem;
+}
+nav{
+    background-color:lightseagreen; 
+    margin-left:3rem;
+    margin-right:3rem;
+    border: 6px solid white;
+    padding: 1rem;
+}
+nav h2{
+    font-family: 'Yellowtail', cursive;
+    padding-left: 1rem;
+}
+nav ul{
+    border: 2px dashed black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin:1rem;
+
+
+}
+nav ul li{
+
+    list-style:none;
+
+}
+nav ul li a{
+
+    font-size: small;
+    font-family: 'Merriweather', serif;
+    color:black;
+    
+}
+a{
+    text-decoration-line: none;
+}
+
+
+
+
+.none{
+    border:none;
+    font-size: 30px;
+}
+
+.articles{
+    font-family: 'Merriweather', serif;
+    padding:1rem;
+    margin: 1rem;
+    color: black;
+    
+}
+.articles h2{
+    font-family: 'Yellowtail', cursive;
+    color:lightseagreen;
+}
+#explanation{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+
+}
+.RTS{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+
+}
+.Races{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+}
+.player{
+    padding:1rem;
+    margin: 1rem;
+    color:white;
+}
+.player h2{
+    font-family: 'Yellowtail', cursive;
+    color:lightseagreen;
+}
+#Song{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+.Lee{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+.flash{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+    font-family: 'Merriweather', serif;
+    color: black;   
+}
+.strat{
+    padding:1rem;
+    margin: 1rem;
+    color:white;
+}
+.strat h2{
+    font-family: 'Yellowtail', cursive;
+    color:lightseagreen;
+}
+#dron{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+.Gateway{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+.cheese{
+    background-color: white;
+    margin:1rem;
+    padding: 1rem;
+    border: 6px solid lightseagreen;
+    font-family: 'Merriweather', serif;
+    color: black;
+}
+article img{
+    float:left;
+    padding: 1rem;
+}
+
+
+@media screen and (min-width: 800px){
+    article:hover{
+	    transform: scale(1.05,1.05);
+    }
+    article{
+	    transition: transform 0.3s;
+
+    }
+    .articles{
+        display:flex;
+        flex-direction: row;
+    }
+    .player{
+        display:flex;
+        flex-direction: row;
+    }
+    .strat{
+        display:flex;
+        flex-direction: row;
+    }
+    nav ul li a{
+        color:white;
+        font-size: 20px;
+        font-family: 'Merriweather', serif;
+    }
+    nav ul li a:active{
+	    color:red;
+    }
+    nav ul li a:hover{
+	    color:blue;
+    }
+    
+    footer img:hover{
+	    transform: scale(1.20,1.20);
+    }
+    footer img{
+	    transition: transform 0.3s;
+
+    }
+    a:hover{
+        color:blue;
+    }
+    #explanation{
+        width:33%
+    
+    }
+    .RTS{
+        width:33%
+    }
+    .Races{
+        width:33%
+    }
+    
+
+    #Song{
+        width:33%
+    }
+    .Lee{
+        width:33%
+    }
+    .flash{
+        width:33%
+    }
+    #dron{
+        width:33%
+    }
+    .Gateway{
+        width:33%
+    }
+    .cheese{
+        width:33%
+    }
+
+
+}
